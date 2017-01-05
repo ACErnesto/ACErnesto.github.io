@@ -95,6 +95,51 @@ Agregar el nombre o nombres de los archvios
 - `git clean -f`
 
 
+## Branch
+- Una rama (branch) es, en pocas palabras,  una línea independiente de trabajo, la cual no afecta a nuestra rama principal (master), sin embargo, tiene la capacidad de fusionarse con otras ramas, incluida la principal.
+- -lista de ramas existentes en el repositorio.
+-- si se le agrega [<nombre>] de rama como argumento, se creará una rama con ese nombre
+
+- #### Actividad
+- crear una nueva rama proyecto
+- Hacer un checkout a la rama
+- Crear un archivo index.html y estilos.css
+- Hacer commit
+
+
+- Comandos
+-- `git branch proyecto`
+-- `git checkout` proyecto cambio al proyecto o rama
+-- `git branch` enlista y marca la rama en la que actualmente se trabaja.
+
+
+## git merge
+-Este comando fusiona dos  ramas, fusiona una rama objetivo con la rama donde nos encontramos actualmente
+-- Recibe como párametro la rama objetivo
+
+- Actividades
+-- Crear una nueva rama llamada inicio
+-- Hacer checkout
+-- Modificar el index.html con las siguientes instrucones 
+-- Hacer commit 
+-- y regresar a la rama proyecto y hacer un merge
+
+- Comando
+-- `git checkout -b inicio`, forma simplificada para crear una nueva rama y cambiarse a esta.
+-- `git branch inicio`
+-- `git checkout inicio`
+-- `git diff` es para saber que cambios se realizaron en el codigo antes de hacer commit. Pone en rojo los cambios anteriores.
+`git add -A`
+`git status`
+`git commit -m "Sección de inicio modificada"`
+`git checkout proyecto`
+`git merge inicio`, se trae los cambios a la rama "proyecto"
+
+
+
+
+
+
 
 
 
