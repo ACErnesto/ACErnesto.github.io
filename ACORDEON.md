@@ -136,9 +136,41 @@ Agregar el nombre o nombres de los archvios
 `git merge inicio`, se trae los cambios a la rama "proyecto"
 
 
+## Conflictos de merging
+
+- A veces si se está trabajando en 2 ramas al mismo tiempo, modificando un mismo archivo, se pueden generar conflictos, por lo que es necesario corregirlos.
 
 
+Actividades
+- Crear una rama "seccion1
+- Sobre la rama 'proyecto' agregar un encabezado a la seccion1
+- Hacer commit de los cambios
+- Cambarse a la rama "seccion1"
+- Agregar un encabezado adecuado a seccion1 y hacer commit de los cambios
+- Regresar a proyecto
 
+-Commando
+-- `git status seccion`
+-- `git checkout proyecto`
+-- `nano index.html`, hago una modificación en seccion uno
+-- `git add -A`
+-- `git commit -m "Sección de uno modificada"`
+-- `git checkout seccion1`
+-- `nano index.html`, hago una modificación en seccion uno
+-- `git add -A`
+-- `git commit -m "Modificacion en seccion1"`, la misma que la anterior
+-- `git checkout proyecto`
+-- `git merge seccion1`, aqui surge el conflicto.
+
+#### Corregir el error
+-- `nano index.html`, modificar de nuevo el archivo
+-- `git add -A`
+-- `git status`
+-- `git commit -m "Correccion de merging"`
+
+
+Sourcetreeapp mac y windows
+gitkraken linux, mac y windows
 
 
 
