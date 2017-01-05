@@ -172,7 +172,8 @@ Actividades
 Sourcetreeapp mac y windows
 gitkraken linux, mac y windows
 
-
+## git branch -D
+- Borrar las ramas
 
 
 
