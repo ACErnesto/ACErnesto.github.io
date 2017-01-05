@@ -5,45 +5,49 @@
 ### $ git init 
 - Inicializa un proyecto
 ### configurar las variables de git
-**git config --global user.name "Ernesto Alcantara"**
-**git config --global user.email "lu_fra_ernes@hotmail.com"**
-**git config --global core.editor "nano"**
+-- **git config --global user.name "Ernesto Alcantara"**
+-- **git config --global user.email "lu_fra_ernes@hotmail.com"**
+-- **git config --global core.editor "nano"**
 
 
 ### $  git status
 - Muestra el estado actual de los archivos del proyecto
 - Comando
-**git status**
+-- **git status**
 ### $  git add
 - Este comando empieza a seguir uno o mas archivos y los agrega al área de preparación, genrando un nuevo estado del proyecto
 - La bandera -A agrega todos los archivos del repositorio. 
 - Comando
-**git add ACORDEON.md**  
->Donde el "ACORDEON.md" es el nombre del archivo
+- Agregar cada archivo
+-- **git add ACORDEON.md** 
+-- **git add -A**
+>Donde el "ACORDEON.md" es el nombre del archivo. La bandera -A agrega todos los archivos.
 ### $  git commit
 - Registra nuevo estado y lo registra en la historia de nuestro reposiorio.
-- Por lo general este comando se usa con la bandera -m y un pequeño texto que describa lo que se hizo.
+-- Por lo general este comando se usa con la bandera -m y un pequeño texto que describa lo que se hizo.
 - Comando
-**git commit -m "primer commit"**
+-- **git commit -m "primer commit"**
 
 ### $  git log
-Comando que muestra el histrial de commints que hemos hecho en nuestro proyecto.
-- La bandera --online muestra cada entrada en una sola linea, historial completo de commits del repo, o de un archivo si se especifica
-- Es posible tver el histirial de un solo archivo, pasando como argumento el nombre del éste
+- Comando que muestra el histrial de commints que hemos hecho en nuestro proyecto.
+-- La bandera --online muestra cada entrada en una sola linea, historial completo de commits del repo, o de un archivo si se especifica
+-- Es posible tver el histirial de un solo archivo, pasando como argumento el nombre del éste
 - Comando 
-**git log**
-**git log --oneline**
--gitignore
-Archivo que permite ignorar archivos o directorios, los cuales no queremos que entren en el seguimiento de nuestro repositori
+-- **git log**
+-- **git log --oneline**
 
-Nombre de archivo y salto de linea
-- nombres de los archivos o carpetas
+## .gitignore
+- Archivo que permite ignorar archivos o directorios, los cuales no queremos que entren en el seguimiento de nuestro repositori
+
+> Nombre de archivo y salto de linea
+- Nombres de los archivos o carpetas
 - wildcards *
 Comando
 nano .gitignore 
 Agregar el nombre o nombres de los archvios
 
->El archivo permanece oculto .gitignore
+> El archivo permanece oculto .gitignore
+
 
 
 
