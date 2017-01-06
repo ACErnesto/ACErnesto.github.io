@@ -234,7 +234,22 @@ Github ofrece una opción, la cual nos permite copiar el repositorio de algún o
 
 
 - Comando
--- Boton de fork en el proyecto copiar-desarrollar (Fork)
+-- Botón de fork en el proyecto copiar-desarrollar (Fork)
+
+## Pull Request
+
+- Este método permite a los equipos de desarrollo controlar qué cambios se realizan en un repositorio.
+- El propietario del repositorio recibe peticiones de cambio, las cuales deben ser aprobadas por el.
+- Tipicamente un colaborador hace fork del proyecto maestro, y al realizar sus cambios realiza el pull request.
+- También es posible hacer pull request entre ramas.
+
+## Issues
+
+Github ofrece la capacidad de crear entradas en nuestro repositorio, las cuales pueden ser usadas para especificar varias cosas, desde mejoras al sistema, problemas a resolver o nuevas ideas que implementar
+
+
+
+
 
 
 
