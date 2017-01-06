@@ -184,9 +184,10 @@ gitkraken linux, mac y windows
 -- Es un servicio de hospedaje de repositorios git
 -- Ofrece editores, wikis, herramientas colaborativas. 
 
+> al crear el repositorio nombrar el repositorio igual que el nombre del usuario, de otra forma no se verá la pagina
 
 ## $git remote
-- Este comando nos permite hacer diversas operaciones sbre repositorios remotos
+- Este comando nos permite hacer diversas operaciones sobre repositorios remotos
 -- add agrega un nuevo remoto
 -- remove elimina remoto
 
@@ -195,6 +196,9 @@ gitkraken linux, mac y windows
 
 Por lo general el nombre del repositorio remoto es: **origin**
 
+> vincula el <nombre> con la dirección <url>, añade un nuevo repositorio Git remoto.
+
+- Comando
 `git remote add origin https://github.com/ACErnesto/ernestoac.github.io.git`
 
 ## $ git pull
@@ -205,6 +209,36 @@ Por lo general el nombre del repositorio remoto es: **origin**
 ## $ git push
 - Este comando nos permite mandar los cambios registrados de nuestro repositorio local a un repositorio remoto
 -- recibe como agumentos el nombre remoto y del branch al que queremos hacer push.
+
+
+- Comando
+` git push origin master`
+
+
+## $ git clone
+
+Clona el repositorio remoto
+
+- Comando
+ `git clone https://github.com/edudgandroid/edudgandroid.github.io.git eduardo`
+
+> git clone <url> <directorio>, si no se le pone directorio crea uno por defecto.
+
+`git push origin master` actualiza el repositorio remoto
+`git pull origin master` actualiza el git local
+
+
+## FORK
+
+Github ofrece una opción, la cual nos permite copiar el repositorio de algún otro usuario y hacerlo nuestro.
+
+
+- Comando
+-- Boton de fork en el proyecto copiar-desarrollar (Fork)
+
+
+
+
 
 
 
