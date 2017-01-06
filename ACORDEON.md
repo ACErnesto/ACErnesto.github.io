@@ -175,6 +175,44 @@ gitkraken linux, mac y windows
 ## git branch -D
 - Borrar las ramas
 
+## Repositorios
+
+- Existen de dos tipos los locales 
+- Distribuidos.
+
+- Gittub
+-- Es un servicio de hospedaje de repositorios git
+-- Ofrece editores, wikis, herramientas colaborativas. 
+
+
+## $git remote
+- Este comando nos permite hacer diversas operaciones sbre repositorios remotos
+-- add agrega un nuevo remoto
+-- remove elimina remoto
+
+-- `$ git remote add <nombre> <url>`
+-- `$ git remote remove <nombre> <url>`
+
+Por lo general el nombre del repositorio remoto es: **origin**
+
+`git remote add origin https://github.com/ACErnesto/ernestoac.github.io.git`
+
+## $ git pull
+
+- Este comando nos permite recibir el último estado registrado del repositorio remoto
+-- recibe como argumentos el nombre del remoto y el branch al que queremos hacer pull
+
+## $ git push
+- Este comando nos permite mandar los cambios registrados de nuestro repositorio local a un repositorio remoto
+-- recibe como agumentos el nombre remoto y del branch al que queremos hacer push.
+
+
+
+
+
+
+
+
 
 
 
